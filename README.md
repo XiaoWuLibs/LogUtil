@@ -1,4 +1,4 @@
-[！[]（https://jitpack.io/v/XiaoWuLibs/LogUtil.svg）（https://jitpack.io/#XiaoWuLibs/LogUtil）
+
 
 
 用于Android端的日志输出以及程序崩溃全局监测插件
@@ -23,4 +23,14 @@ leiningen
 	dependencies {
 	        implementation 'com.github.XiaoWuLibs:LogUtil:1.1.1'
 	}
-分享此版本：
+
+使用规则：
+     * 使用LogUtils时，需要进行初始化。
+     * 初始化分为两种：
+     * 1、在您项目Application的onCreate中加入  LogUtils.init(this, true)。
+     * 可以看到 LogUtils.init(Context context, boolean useCrashCatch)
+     * 中有两个参数，context:上下文、useCrashCatch：是否需要输出崩溃日志到日志文件。根据自己需要进行配置；
+     * 2、使您项目的Application继承LogUtils的LogUtilApplication，
+     * 并在您项目Application的onCreate中加入LogUtils.launchCrashCatch()；
+     * 在方法2中，如果您的项目中不需要打印崩溃日志到本地文件，则不需要在Application的onCreate中加入LogUtils.launchCrashCatch()；
+     *

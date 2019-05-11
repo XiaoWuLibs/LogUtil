@@ -6,11 +6,8 @@
 
 步骤1.将JitPack存储库添加到构建文件中
 
-gradle这个
-行家
-SBT
-leiningen
-将其添加到存储库末尾的根build.gradle中：
+
+将其添加到Project的build.gradle中：
 
 	allprojects {
 		repositories {

@@ -3,6 +3,10 @@
 
 #用于Android端的日志输出以及程序崩溃全局监测插件<br>
 
+
+ ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+ 
+
 ####要将Git项目放入您的构建中,使用步骤：<br>
 
 #####步骤1.将JitPack存储库添加到构建文件中

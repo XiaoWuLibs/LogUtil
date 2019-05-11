@@ -1,6 +1,6 @@
 # LogUtil
-[！[]（https://jitpack.io/v/XiaoWuLibs/LogUtil.svg）（https://jitpack.io/#XiaoWuLibs/LogUtil）
 
+[！[]（https://jitpack.io/v/XiaoWuLibs/LogUtil.svg）（https://jitpack.io/#XiaoWuLibs/LogUtil）
 用于Android端的日志输出插件
 要将Git项目放入您的构建中：
 
@@ -21,6 +21,6 @@ leiningen
 步骤2.添加依赖项
 
 	dependencies {
-	        implementation 'com.github.XiaoWuLibs:LogUtil:Tag'
+	        implementation 'com.github.XiaoWuLibs:LogUtil:1.1.1'
 	}
 分享此版本：

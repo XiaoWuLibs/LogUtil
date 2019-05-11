@@ -4,7 +4,7 @@
 #用于Android端的日志输出以及程序崩溃全局监测插件<br>
 
 
- ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+ ![image](https://github.com/XiaoWuLibs/LogUtil/blob/master/app/src/main/assets/logo_log_utils.png)
  
 
 ####要将Git项目放入您的构建中,使用步骤：<br>

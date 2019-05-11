@@ -1,4 +1,4 @@
-package com.demo.logutil;
+package com.demo.logutil.activity;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.demo.library.log.LogUtils;
+import com.demo.logutil.R;
 import com.demo.permissionlibrary.permission.PermissionHelper;
 import com.demo.permissionlibrary.permission.PermissionInterface;
 
@@ -35,7 +36,8 @@ public class MainActivity extends AppCompatActivity implements PermissionInterfa
         findViewById(R.id.btn_click).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                LogUtils.log(context, "tag", "123465498746132", LogUtils.INFO, true);
+                String s = null;
+                Integer.parseInt(s);
             }
         });
 

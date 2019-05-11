@@ -1,6 +1,5 @@
-# LogUtil
+[！[]（https://jitpack.io/v/XiaoWuLibs/LogUtil.svg）（https://jitpack.io/#XiaoWuLibs/LogUtil）
 
-（https://jitpack.io/v/XiaoWuLibs/LogUtil.svg）（https://jitpack.io/#XiaoWuLibs/LogUtil）
 
 用于Android端的日志输出以及程序崩溃全局监测插件
 要将Git项目放入您的构建中：

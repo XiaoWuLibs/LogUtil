@@ -1,5 +1,5 @@
 
-                  ![image](https://github.com/XiaoWuLibs/LogUtil/blob/master/app/src/main/assets/logo_log_utils.png)
+![image](https://github.com/XiaoWuLibs/LogUtil/blob/master/app/src/main/assets/logo_log_utils.png)
 		  
 
 #用于Android端的日志输出以及程序崩溃全局监测插件<br>

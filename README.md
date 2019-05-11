@@ -24,13 +24,13 @@ leiningen
 	        implementation 'com.github.XiaoWuLibs:LogUtil:1.1.1'
 	}
 
-使用规则：
+使用规则：<br>
      * 使用LogUtils时，需要进行初始化。<br>
      * 初始化分为两种：<br>
      * 1、在您项目Application的onCreate中加入  LogUtils.init(this, true)。<br>
      * 可以看到 LogUtils.init(Context context, boolean useCrashCatch)
-     * 中有两个参数，context:上下文、useCrashCatch：是否需要输出崩溃日志到日志文件。根据自己需要进行配置；
-     * 2、使您项目的Application继承LogUtils的LogUtilApplication，
+     * 中有两个参数，context:上下文、useCrashCatch：是否需要输出崩溃日志到日志文件。根据自己需要进行配置；<br>
+     * 2、使您项目的Application继承LogUtils的LogUtilApplication，<br>
      * 并在您项目Application的onCreate中加入LogUtils.launchCrashCatch()；
      * 在方法2中，如果您的项目中不需要打印崩溃日志到本地文件，则不需要在Application的onCreate中加入LogUtils.launchCrashCatch()；
      *
